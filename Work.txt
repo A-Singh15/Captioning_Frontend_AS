@@ -1,0 +1,6 @@
+jest testing // the testing method
+Security testing
+// testing for front end
+file strustue funcitilty test in jest components
+jenkin and jest working together fundamentally
+
