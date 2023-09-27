@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import { NavLink } from 'react-router-dom';
-import AddJobControlContainer from './AddJobControlContainer.test';
+import AddJobControlContainer from 'src/components/AddCapJobView/AddJobControlContainer.js';
 import expect from "expect";
 
 describe('AddJobControlContainer', () => {

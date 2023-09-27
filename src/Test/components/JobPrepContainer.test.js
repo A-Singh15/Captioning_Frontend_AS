@@ -11,7 +11,7 @@ import { render, fireEvent } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import configureStore from 'redux-mock-store';
-import JobPrepContainer from './JobPrepContainer';
+import JobPrepContainer from 'src/components/AddCapJobView/JobPrepContainer.js';
 
 const mockStore = configureStore([]);
 const initialState = {
