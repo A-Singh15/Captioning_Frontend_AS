@@ -1,3 +1,20 @@
+// Tested with Jest and Enzyme
+// createTransaction, createListTransaction, clearTransaction, and finalizeTransaction functions in our JobPrepContainer component testing
+//jest testing with babel enabled and react dom
+//
+// testing for
+//
+// Rendering: The test verifies that the component renders without crashing and that it displays the "Add Job" button.
+// Navigation: The test verifies that clicking the "Add Job" button navigates to the /captioning/add-job route, passing along the current search parameters if any.
+// Route changes: The test verifies that the component updates the route when the "Add Job" button is clicked.
+// State changes: The test verifies that the component updates its state when a change occurs, such as when the user enters text into an input field.
+// Redux state changes: The test verifies that the component handles changes in Redux state.
+import React from'react';
+import { shallow } from 'enzyme';
+import { NavLink } from'react-router-dom';
+import AddJobControlContainer from'src/components/AddCapJobView/AddJobControlContainer.js';
+import expect from "expect";
+
 import React from 'react';
 import { shallow } from 'enzyme';
 import { NavLink } from 'react-router-dom';
