@@ -9,7 +9,7 @@
     //The complete request button is disabled if the form is not enabled.
     //The complete request button is enabled if the form is enabled and the file is present.
 
-import React, {Component} from 'react';
+import  React, {Component} from 'react';
 import {render, screen} from '@testing-library/react';
 import NewJobFormContainer from 'src/components/AddCapJobView/NewJobFormContainer';
 

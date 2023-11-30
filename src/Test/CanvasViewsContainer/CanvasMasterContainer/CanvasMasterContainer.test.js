@@ -1,3 +1,10 @@
+import React, { Component } from 'react';
+import {withRouter} from "react-router";
+import {connect} from "react-redux";
+
+import ILearnMasterContainer from "../CanvasViewContainers/CanvasAllCoursesView";
+
+
 // Test File for JobPrepContainer.js
 // This file contains the tests for the JobPrepContainer component.
 //Tested with Jest and Enzyme
@@ -133,7 +140,7 @@ describe('JobPrepContainer', () => {
             payload: {
 
 
-k
+                k
 
 
 
@@ -142,3 +149,4 @@ k
         });
     });
 });
+export default withRouter(connect(mapStateToProps)(CanvasManagementControlContainer))
